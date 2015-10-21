@@ -7,7 +7,7 @@ public class Expt1 {
 		float x=src.nextFloat();
 		float y=src.nextFloat();
 		
-		if(x%5!=0 | (x+0.5)>y)
+		if(x%5!=0 | (x+0.5)>y)		// x+0.5 very important
 			System.out.println(y);
 		else System.out.println(y-(x+0.5));
 	}
